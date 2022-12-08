@@ -7,7 +7,7 @@
 }
 @media (max-width: 480px) {
   html {
-    font-size: 10px;
+    font-size: 3vw;
   }
   header {
     flex-direction: column;
@@ -16,9 +16,16 @@
   }
   .photo {
     width: 100vw !important;
-    height: 550px !important;
+    height: 150vw !important;
     left: 0px !important;
+    top: 50px;
     opacity: 0.3;
+  }
+  .rings{
+    display: none;
+  }
+  .photo img{
+    width: 100%;
   }
   .intro{
     margin-top: 100px;
