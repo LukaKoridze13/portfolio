@@ -1,8 +1,27 @@
-@media (max-width: 1280px) {
-  .photo {
-    width: 322px !important;
-    height: 600px !important;
-    left: calc(100vw - 350px) !important;
+@media (max-width: 1420px) {
+  .skills {
+    column-gap: 10% !important;
+  }
+}
+@media (max-width: 1236px) {
+  .skills {
+    justify-content: space-around !important;
+  }
+}
+@media (max-width: 1030px) {
+  .skills{
+  margin-top: 100px !important;
+  }
+}
+@media (max-width: 779px) {
+  .skillbox {
+    width: 200px !important;
+  }
+  .skillbox h2 {
+    font-size: 30px !important;
+  }
+  .skillbox p {
+    font-size: 14px !important;
   }
 }
 @media (max-width: 480px) {
@@ -21,23 +40,35 @@
     top: 50px;
     opacity: 0.3;
   }
-  .rings{
+  .rings {
     display: none;
   }
-  .photo img{
+  .photo img {
     width: 100%;
   }
-  .intro{
+  .intro {
     margin-top: 100px;
   }
-  .circle{
+  .circle {
     display: none;
   }
-  .container{
+  .container {
     padding-inline: 15px;
   }
-  .heading{
+  .heading {
     width: 100%;
     font-size: 3.5em;
   }
+  .skillbox {
+    width: 120px !important;
+  }
+  .skillbox h2 {
+    font-size: 20px !important;
+  }
+  .skillbox p {
+    font-size: 10px !important;
+  }
+  .skills{
+    margin-top: 40vw !important;
+    }
 }

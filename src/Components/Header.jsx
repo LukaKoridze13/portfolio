@@ -5,7 +5,7 @@ import Github from "../images/github.svg";
 import Linkedin from "../images/linkedin.svg";
 export default function Header() {
   return (
-    <header className="flex items-centermax-w-7xl m-auto justify-between pt-9 z-30 relative">
+    <header className="flex items-center max-w-7xl m-auto justify-between pt-9 z-30 relative">
       <Logo logo="Luka Koridze" />
       <div className="socials flex items-center gap-8">
         <Social
