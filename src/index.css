@@ -9,18 +9,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(28 25 23);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.links{
+.links {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-.links a{
+.links a {
   border-bottom: 2px solid rgb(22 163 74);
   padding-bottom: 5px;
 }

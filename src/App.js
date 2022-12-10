@@ -1,5 +1,6 @@
 import Circle from "./Components/Circle";
 import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
 import Intro from "./Components/Intro";
@@ -116,13 +117,13 @@ function App() {
             <ProjectBox
               image="https://i.ibb.co/n71PTpf/lukakoridze13-github-io-1920x1080desktop-3cef15.png"
               name="Restaurant"
-              used={["React", "Bootstrap","React Router", "API"]}
+              used={["React", "Bootstrap", "React Router", "API"]}
               website="https://lukakoridze13.github.io/Restaurant-ReactApp/"
               code="https://github.com/LukaKoridze13/Restaurant-ReactApp"
             />
-            
           </section>
         </main>
+        <Footer />
       </div>
     </div>
   );
